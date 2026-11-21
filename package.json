@@ -1,0 +1,26 @@
+{
+  "name": "ninjafood",
+  "version": "1.0.0",
+  "description": "\"Learning the tailwindcss\"",
+  "homepage": "https://github.com/Nischay-K/TailWind.css-Learning#readme",
+  "bugs": {
+    "url": "https://github.com/Nischay-K/TailWind.css-Learning/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nischay-K/TailWind.css-Learning.git"
+  },
+  "license": "ISC",
+  "author": "\"Nischay\"",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/styles.css -o ./public/styles.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.3.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.5"
+  }
+}
